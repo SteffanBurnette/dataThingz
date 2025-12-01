@@ -11,6 +11,6 @@ dfn = pd.DataFrame({
     'value': [10, 20, 15, 25, 30, 12]
 })
 
-grouped_df = dfn.groupby('category')["value"].mean()
+grouped_df = dfn.groupby('category')["value"].mean() #mean
 
 print(grouped_df.head())
