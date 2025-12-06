@@ -55,5 +55,7 @@ def delete_item(item_id):
     return jsonify({"Result": "Item Deleted"})
 
 
+# server in  debug mode
 if __name__ == "__main__":
     app.run(debug = True)
+
